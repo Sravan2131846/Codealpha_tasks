@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    
+<link rel="stylesheet" href="calcuatorstyles.css">
+    
+
+</head>
+<body>
+    <div id="container">
+        <div id="head"><input type="text" id ="display" placeholder="0" readonly></div>
+        <div id="buttons">
+            <div>
+                <button id="equal" onclick="cleardisplay()">AC</button>
+                <button id="equal" onclick="addedtodisplay('%')">%</button>
+                <button id="equal" onclick="deletelast()">DE</button>
+                <button id="equal" onclick="addedtodisplay('/')">/</button>
+            </div>
+             <div>
+                <button id="" onclick="addedtodisplay('7')">7</button>
+                <button onclick="addedtodisplay('8')">8</button>
+                <button onclick="addedtodisplay('9')">9</button>
+                <button  id="equal" onclick="addedtodisplay('*')">X</button>
+            </div>
+             <div>
+                <button onclick="addedtodisplay('4')">4</button>
+                <button onclick="addedtodisplay('5')">5</button>
+                <button onclick="addedtodisplay('6')">6</button>
+                <button  id ="equal" onclick="addedtodisplay('-')">-</button>
+            </div>
+             <div>
+                <button onclick="addedtodisplay('1')">1</button>
+                <button onclick="addedtodisplay('2')">2</button>
+                <button onclick="addedtodisplay('3')">3</button>
+                <button id="equal" onclick="addedtodisplay('+')">+</button>
+            </div>
+             <div>
+                <button onclick="addedtodisplay('00')">00</button>
+                <button onclick="addedtodisplay('0')">0</button>
+                <button onclick="addedtodisplay('.')">.</button>
+                <button id ="equal" onclick="calculate()">=</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="calculator2.js"></script>
+    
+</body>
+</html>
